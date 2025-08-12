@@ -1,0 +1,11 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 136px;
+}
+
+.copyright {
+  padding: 0;
+  margin: 0;
+}
