@@ -51,11 +51,16 @@
   background: none;
   border: none;
   justify-content: left;
-  color: rgba(33, 33, 33, 1);
+  color: rgba(33, 33, 33, 0.7);
   gap: 8px;
   font-weight: 500;
   line-height: 1;
   font-size: 16px;
+  cursor: pointer;
+}
+
+.profile__edit-btn:hover {
+  color: rgba(33, 33, 33, 1);
 }
 
 .profile__add-btn {
@@ -70,11 +75,11 @@
   background-color: rgba(33, 33, 33, 1);
   border-radius: 8px;
   color: rgb(252, 245, 229);
+  cursor: pointer;
 }
 
-.profile__add-btn img {
-  height: 12px;
-  width: 12px;
+.profile__add-btn:hover {
+  background-color: rgba(33, 33, 33, 0.8);
 }
 
 @media screen and (max-width: 627px) {
@@ -114,5 +119,6 @@
 
   .profile__add-btn {
     margin: 0;
+    width: 100%;
   }
 }
