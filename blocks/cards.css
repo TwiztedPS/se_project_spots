@@ -5,6 +5,7 @@
 .cards__list {
   list-style-type: none;
   padding-bottom: 40px;
+  padding-left: 0;
   margin: 0 auto;
   display: grid;
   max-width: 1280px;
@@ -14,7 +15,7 @@
   border-bottom: rgba(33, 33, 33, 0.4) 1px solid;
 }
 
-@media screen and (max-width: 627) {
+@media screen and (max-width: 627px) {
   .cards__list {
     grid-template-columns: repeat(auto-fit, 288px);
     padding-bottom: 20px;
