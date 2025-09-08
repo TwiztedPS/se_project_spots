@@ -17,4 +17,4 @@ Describe the Project + its Functionality.
 This project is Deployed on Github Pages.
 
 [Deployment Link](https://twiztedps.github.io/se_project_spots/)
-[Video Link] (https://drive.google.com/file/d/1Ui2G22dh_a2h3WATwQVp0bWvEbXvCtaJ/view?usp=drive_link)
+[Video Link] (https://drive.google.com/file/d/1Ui2G22dh_a2h3WATwQVp0bWvEbXvCtaJ/view?usp=sharing)
