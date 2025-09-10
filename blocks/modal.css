@@ -1,5 +1,6 @@
 /* ToDo - Add correct Font Styles for everything
-          Add Save Button Styles */
+          Add Save Button Styles
+          Responsive Design - for Mobile*/
 
 .modal {
   visibility: hidden;
@@ -12,6 +13,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 10px;
 }
 
 .modal_is-opened {
@@ -58,4 +60,9 @@
 
 .modal__input::placeholder {
   color: rgba(33, 33, 33, 0.4);
+}
+
+.modal__submit-btn {
+  max-width: 156px;
+  /* ToDo - remove max-width in media query */
 }
